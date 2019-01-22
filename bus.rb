@@ -8,13 +8,16 @@ attr_accessor :route_number , :destination , :passengers
     @passengers = passengers
   end
 
-  def passenger_list(person)
-    passenger_list = []
+  # def passenger_list(person)
+  #   passenger_list = []
+  # end
+
+
+  def add_person(person)
+    passengers = []
+    passengers << person
+    return @passengers.length
   end
-
-
-  def add_person
-
 
 
 

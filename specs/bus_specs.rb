@@ -12,12 +12,15 @@ class BusTest < MiniTest::Test
 #   @passengers = []
 # end
 
-def test_passenger_list
-assert_equal([], )
-end
+# def test_passenger_list
+# assert_equal([], )
+# end
 
 
 def test_add_person
-@passengers.push("Chika")
-assert_equal("Chika", @passengers.add_persons())
+# @passengers.add_person("Chika")
+# assert_equal(1, @passengers.length())
+assert_equal(1, @passengers.add_person("Chika"))
+
+end
 end

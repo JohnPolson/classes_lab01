@@ -16,15 +16,12 @@ class PersonTest < MiniTest::Test
     @person_06 = Person.new("Peter", 41)
   end
 
-#   @persons = [@person_01, @person_02, @person_03, @person_04, @person_05, @person_06]
-#
-# def test_add_person(name,age)
-#
-#   assert_equal( ,@persons.add_person())
-# end
-#
-# def test_add_person
-#
-# end
+  def test_get_name()
+    assert_equal("Matt", @person_01.get_name)
+  end
+
+  def test_get_age()
+    assert_equal(23, @person_02.get_age)
+  end
 
 end

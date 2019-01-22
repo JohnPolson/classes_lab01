@@ -7,9 +7,13 @@ class Person
       @age = age
     end
 
-# def add_person(name,age)
-#   @persons.push()
-#   return @persons
-# end
+def get_name
+  return @name
+end
+
+def get_age
+  return @age
+end
+
 
 end
